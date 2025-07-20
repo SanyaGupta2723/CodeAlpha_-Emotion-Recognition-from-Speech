@@ -80,20 +80,15 @@ scaler = joblib.load("scaler.pkl")
 
 ✅ Output
 The trained model achieved:
-
 High Accuracy
-
 Strong Recall (important to minimize false negatives in health)
-
 Interpretable results with a clear confusion matrix
+
 
 🔍 Algorithms Used
 Logistic Regression ✅
-
 Random Forest 🌲
-
 XGBoost ⚡
-
 SVM 🧠
 
 🔬 Datasets Explored
@@ -101,11 +96,10 @@ SVM 🧠
 
 (Optional Future Scope: Diabetes, Breast Cancer – also from UCI)
 
+
 🚀 Future Enhancements
 Use SHAP or LIME for explainability
-
 Deploy using Flask / Streamlit
-
 Add user-input interface for real-time prediction
 
 
