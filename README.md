@@ -5,14 +5,20 @@
 This project focuses on recognizing human emotions from speech audio using deep learning and speech signal processing. The primary goal is to classify audio clips into categories like happy, sad, angry, neutral, etc., by analyzing features extracted from audio waveforms.
 
 
+
+
 🎯 Objective
 To build a deep learning pipeline that can classify emotions from audio recordings based on extracted speech features like MFCCs (Mel-Frequency Cepstral Coefficients).
+
+
 
 
 ⚙️ Approach
 Signal Processing: Feature extraction using MFCCs, Delta MFCCs.
 Modeling: Deep learning using CNN + LSTM architecture.
 Evaluation: Model performance evaluated using accuracy, classification report, and confusion matrix.
+
+
 
 
 📁 Project Structure
@@ -32,6 +38,8 @@ Evaluation: Model performance evaluated using accuracy, classification report, a
 
 
 
+
+
 🧠 Deep Learning Model
 
 Input: MFCC feature matrix of audio clips
@@ -42,9 +50,11 @@ Dense layers with Dropout and BatchNorm
 Output: Softmax layer predicting probabilities across emotion labels
 
 
+
 🔍 Datasets
 RAVDESS
 (Optionally) TESS or EMO-DB
+
 
 
 🛠️ Key Libraries Used
@@ -55,10 +65,13 @@ joblib to save/load encoder
 matplotlib and seaborn for visualizations
 
 
+
 📊 Results
 High classification accuracy on test set
 Detailed emotion-wise precision, recall, F1-score
 Confusion matrix for visual insight into model predictions
+
+
 
 🚀 How to Run
 Clone the repo
@@ -74,6 +87,7 @@ Predict using trained model:
 
 python inference_script_re_provide.py --file path/to/audio.wav
 ```
+
 
 
 🙌 Acknowledgments
