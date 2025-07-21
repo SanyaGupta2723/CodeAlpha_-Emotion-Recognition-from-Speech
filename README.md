@@ -75,7 +75,12 @@ Confusion matrix for visual insight into model predictions
 
 🚀 How to Run
 Clone the repo
-Prepare RAVDESS dataset inside dataset/
+Prepare RAVDESS dataset inside dataset
+
+Activating Environment 
+```
+.\venv\Scripts\activate
+```
 
 Run training:
 ```
@@ -86,6 +91,11 @@ Predict using trained model:
 ```
 
 python inference_script_re_provide.py --file path/to/audio.wav
+```
+
+For some necessary packages 
+```
+pip install pandas numpy librosa tensorflow scikit-learn matplotlib seaborn joblib resampy
 ```
 
 
