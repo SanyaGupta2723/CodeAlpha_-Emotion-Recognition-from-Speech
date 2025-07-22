@@ -17,7 +17,7 @@ import joblib # Added for saving LabelEncoder
 
 # --- Configuration ---
 # IMPORTANT: Set the correct path to your RAVDESS dataset here!
-DATA_PATH = r"C:\Users\Lenovo\Downloads\RAVDESS" # Example path, adjust if yours is different
+DATA_PATH = r"YOUR ACTUAL PATH WHERE THE RAVDESS IS DOWNLOADED" # Example path, adjust if yours is different
 
 # --- Step 1: Feature Extraction Function (MFCCs, Delta, Delta-Delta) ---
 def extract_features_dl(file_path, n_mfcc=40, max_pad_len=174):
